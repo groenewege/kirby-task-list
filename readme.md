@@ -11,10 +11,18 @@ Copy the `site/plugins/task-list` directory to your `site/plugins/` directory
 ## Usage
 
 Task lists are lists with items marked as either [ ] for incomplete tasks or [x] for complete tasks.
-This does not work outside lists. (the item must begin with a dash)
+This does not work outside lists : each item must begin with a dash.
 
 For example:
 
 	- [x] this is a complete item
 	- [ ] this is an incomplete item
+
+Task lists can be nested to better structure your tasks:
+
+	- [ ] a bigger project
+	  - [ ] first subtask
+	  - [ ] follow up subtask
+	  - [ ] final subtask
+	- [ ] a separate task
 
