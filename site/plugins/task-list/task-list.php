@@ -1,12 +1,12 @@
 <?php
 
 function convert_tasks($text) {
-	$text = preg_replace('/^\s*- \[x\]/mi', '<input type="checkbox" checked>', $text);
-	$text = preg_replace('/^\s*- \[ \]/mi', '<input type="checkbox">', $text);
+	$text = preg_replace('/^\s*<li>\s*(<p>)?\s*\[x\]/mi', '<li style="list-style-type:none;">$1<input type="checkbox" checked>', $text);
+	$text = preg_replace('/^\s*<li>\s*\[ \]/mi', '<li style="list-style-type:none;"><input type="checkbox">', $text);
 	return $text;
 
 }
 
-kirbytext::$pre[] = function($kirbytext, $value) {
+kirbytext::$post[] = function($kirbytext, $value) {
 	return convert_tasks($value);
 };

@@ -2,7 +2,7 @@
 
 This plugin extends [Kirby 2 CMS](http://getkirby.com) with some basic and extremely easy taks-list formatting.
 The plugin enables the inclusion of [github style task lists](https://help.github.com/articles/writing-on-github/)
-in Kirby Content pages.
+in Kirby content.
 
 ## Installation
 
