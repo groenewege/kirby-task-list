@@ -1,6 +1,6 @@
 # Kirby Task List
 
-This plugin extends [Kirby 2 CMS](http://getkirby.com) with some basic and extremely easy taks-list formatting.
+This plugin extends [Kirby 2](http://getkirby.com) with some basic and extremely easy to use taks-list formatting.
 The plugin enables the inclusion of [github style task lists](https://help.github.com/articles/writing-on-github/)
 in Kirby content.
 
@@ -26,3 +26,6 @@ Task lists can be nested to better structure your tasks:
 	  - [ ] final subtask
 	- [ ] a separate task
 
+---
+
+This plugin is brought to you by [Kirby Project Hub](https://www.project-hub.net)
